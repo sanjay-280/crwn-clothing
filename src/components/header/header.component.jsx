@@ -12,7 +12,7 @@ import { selectCartHidden } from '../../redux/cart/cart.selectors';
 
 const Header = ({ currentUser, hidden }) => (
     <div className="header">
-        <Link className="logo-container">
+        <Link className="logo-container" to="/">
             <Logo className="logo" />
         </Link>
         <div className="options">
